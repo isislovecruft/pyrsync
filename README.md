@@ -1,5 +1,5 @@
 ===============================
-##pyrsync
+#pyrsync
 ===============================
 pyrsync is a Python module which implements the [rsync algorithm] [1], 
 written in pure Python. It *is not* a wrapper for rsync, but a set of 
@@ -18,9 +18,9 @@ The majority of the code for this module is taken from [Eric Pruitt's
 post at ActiveState] [1]. It was orginally licensed under an [MIT license]
 [2], and this license has been kept wthout modifications.
 
-# Installation
+## Installation
 ________________________________
-If you have [setuptools] [3]installed, simply do:
+If you have [setuptools] [3] installed, simply do:
 
     $ sudo python setup.py install
 
@@ -28,7 +28,7 @@ If you do not have setuptools, the setup.py script will detect this and
 default to using the python builtin distutils. To install using distutils,
 the installation process is the same as documented above for setuptools.
 
-# Use
+## Use
 ________________________________
 An example use case for this module:
 
