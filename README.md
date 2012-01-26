@@ -19,7 +19,7 @@ post at ActiveState] [1]. It was orginally licensed under an [MIT license]
 [2], and this license has been kept wthout modifications.
 
 ## Installation
-________________________________
+--------------------------------
 If you have [setuptools] [3] installed, simply do:
 
     $ sudo python setup.py install
@@ -29,7 +29,7 @@ default to using the python builtin distutils. To install using distutils,
 the installation process is the same as documented above for setuptools.
 
 ## Use
-________________________________
+--------------------------------
 An example use case for this module:
 
     # On the system containing the file that needs to be patched
