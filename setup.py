@@ -21,7 +21,7 @@ if version < '2.2.3':
 # Utility function to read the README.md file from main directory, used for 
 # the long_description.
 def read(fname):
-    return.open(os.path.join(os.path.dirname(__file__), fname)).read()
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(name='pyrsync',
       version='0.1.0',
