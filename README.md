@@ -6,7 +6,7 @@ written in pure Python. It *is not* a wrapper for rsync, but a set of
 functions which apply full rsync functionality through Python.
 
 The original rsync specification calls for the use of an MD5 hash, which
-the developer of this module considers to be outdated, and thus all 
+the developers of this module considers to be outdated, and thus all 
 occurences of MD5 have been replaced with SHA256. Personally, I would
 opt for using SHA512, but this would double the storage size for hash
 table databases. SHA256 is sufficient to meet standard security 
