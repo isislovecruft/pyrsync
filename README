@@ -15,12 +15,12 @@ eventually, added functionality for the user/developer to choose between
 various hashes should be considered for further releases.
 
 The majority of the code for this module is taken from [Eric Pruitt's
-post at ActiveState] [1]. It was orginally licensed under an [MIT license]
-[2], and this license has been kept wthout modifications.
+post at ActiveState] [2]. It was orginally licensed under an [MIT license]
+[3], and this license has been kept wthout modifications.
 
 ## Installation
 --------------------------------
-If you have [setuptools] [3] installed, simply do:
+If you have [setuptools] [4] installed, simply do:
 
     $ sudo python setup.py install
 
@@ -50,3 +50,4 @@ An example use case for this module:
 [1]: http://samba.anu.edu.au/rsync/ "Andrew Tridgell and Paul Mackerras. The rsync algorithm. Technical Report TR-CS-96-05, Canberra 0200 ACT, Australia, 1996."
 [2]: https://code.activestate.com/recipes/577518-rsync-algorithm/ "Rsync Algorithm (Python Recipe)"
 [3]: http://www.opensource.org/licenses/mit-license.php "OSI MIT License"
+[4]: http://pypi.python.org/pypi/setuptools/ "setuptools"
