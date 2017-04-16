@@ -1,5 +1,5 @@
 ===============================
-#pyrsync
+# pyrsync
 ===============================
 pyrsync is a Python module which implements the [rsync algorithm] [1], 
 written in pure Python. It *is not* a wrapper for rsync, but a set of 
