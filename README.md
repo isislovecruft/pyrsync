@@ -7,7 +7,7 @@ functions which apply full rsync functionality through Python.
 
 The original rsync specification calls for the use of an MD5 hash, which
 the developers of this module considers to be outdated, and thus all 
-occurences of MD5 have been replaced with SHA256. Personally, I would
+occurrences of MD5 have been replaced with SHA256. Personally, I would
 opt for using SHA512, but this would double the storage size for hash
 table databases. SHA256 is sufficient to meet standard security 
 requirements for verification processes as of this release, although,
@@ -15,8 +15,8 @@ eventually, added functionality for the user/developer to choose between
 various hashes should be considered for further releases.
 
 The majority of the code for this module is taken from [Eric Pruitt's
-post at ActiveState] [2]. It was orginally licensed under an [MIT license]
-[3], and this license has been kept wthout modifications.
+post at ActiveState] [2]. It was originally licensed under an [MIT license]
+[3], and this license has been kept without modifications.
 
 ## Installation
 --------------------------------
