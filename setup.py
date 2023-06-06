@@ -31,7 +31,7 @@ setup(name='pyrsync',
       author_email='isis@patternsinthevoid.net',
       url='https://github.com/isislovecruft/pyrsync',
       py_modules=['pyrsync'],
-      license=['MIT'],
+      license='MIT',
       classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
